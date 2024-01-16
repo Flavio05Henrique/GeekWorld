@@ -1,0 +1,244 @@
+.secHome {
+    background: var(--background__defaut);
+
+    &__brandLogo {
+        width: 850px;
+        z-index: 11;
+        opacity: 0%;
+        transition: 1.5s;
+    }
+
+    &__navBar {
+        width: 850px;
+        background: linear-gradient(to bottom, var(--cor7), transparent);
+        height: 100px;
+        z-index: 11;
+        opacity: 0%;
+        transition: 1.5s;
+
+        & ul {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            list-style: none;
+            width: 100%;
+            height: 100%;
+            font-size: 2.3rem;
+
+            & li {
+
+                & button {
+                    margin: 0 10px;
+                    padding: 5px;
+                    background-color: var(--cor4);
+                    color: var(--cor1);
+                    font-weight: 900;
+                    font-size: 2rem;
+                    border: none;
+                    border-radius: 5px;
+                    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.295);
+                    transition: .3s;
+
+                    &:hover {
+                        cursor: pointer;
+                        font-size: 2.5rem;
+                        color: var(--cor2);
+                        margin: 0 5px;
+                        padding: 10px;
+                        transition: .3s;
+                    } 
+                }
+
+                
+            }
+        }
+    }
+
+    &__imgStatic {
+        position: absolute;
+        top: 0;
+        transition: 1s;
+    }
+
+    &__img1 {
+        width: 400px;
+        top: 45%;
+        left: 80%;
+        z-index: 10;
+        transform: translate(100%, 20%) rotate(30deg);
+    }
+
+    &__img2 {
+        width: 400px;
+        top: 40%;
+        left: 5%;
+        z-index: 10;
+        transform: translate(-120%, 50%) rotate(30deg) ;
+    }
+
+    &__img3 {
+        width: 330px;
+        top: 19%;
+        left: -2%;
+        z-index: 9;
+        transform: rotate(50deg);
+        transform: translate(-100%, 50%) rotate(30deg) scale(0.01, 0.01);
+    }
+
+    &__img4 {
+        width: 300px;
+        top: 10%;
+        left: 50%;
+        z-index: 9;
+        transform: translate(-50%, 300%)scale(0.5, 0.5);
+    }
+
+    &__img5 {
+        width: 300px;
+        top: 15%;
+        left: 85%;
+        z-index: 9;
+        transform: translate(100%) scale(0.5, 0.5);
+    }
+
+    &__img6 {
+        width: 220px;
+        top: 3%;
+        left: 78%;
+        z-index: 8;
+        transform: translate(200%) rotate(30deg);
+    }
+
+    &__img7 {
+        width: 230px;
+        top: 0%;
+        left: 10%;
+        z-index: 8;
+        transform: translate(-190%, -50%) rotate(-30deg);
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .secHome {
+
+        &__brandLogo {
+            width: 100%;
+            z-index: 11;
+            opacity: 0%;
+            transition: 1.5s;
+        }
+    
+        &__navBar {
+            width: 100%;
+    
+            & ul {
+                flex-wrap: wrap;
+    
+                & li {
+    
+                    & button {
+    
+                        &:hover {
+                            cursor: pointer;
+                            font-size: 2rem;
+                            color: var(--cor2);
+                            margin: 0 10px;
+                            padding: 5px;
+                            transition: .3s;
+                        } 
+                    }
+    
+                    
+                }
+            }
+        }
+
+        &__img1 {
+            display: none;
+        }
+    
+        &__img2 {
+            display: none;
+        }
+    
+        &__img3 {
+            width: 35%;
+        }
+    
+        &__img4 {
+            width: 35%;
+            left: 40%;
+        }
+    
+        &__img5 {
+            width: 35%;
+            left: 75%;
+        }
+    
+        &__img6 {
+            width: 35%;
+            left: 60%;
+        }
+
+        &__img7 {
+            width: 35%;
+        }
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .secHome {
+    
+        &__navBar {
+            width: 100%;
+    
+            & ul {
+                flex-wrap: wrap;
+    
+                & li {
+    
+                    & button {
+                        margin-bottom: 10px;
+                        
+                        &:hover {
+                            cursor: pointer;
+                            font-size: 2rem;
+                            color: var(--cor2);
+                            margin: 0 10px;
+                            padding: 5px;
+                            transition: .3s;
+                        } 
+                    }
+    
+                    
+                }
+            }
+        }
+    
+        &__img3 {
+            width: 45%;
+            top: 30%;
+        }
+    
+        &__img4 {
+            width: 45%;
+            left: 32%;
+            top: 20%;
+        }
+    
+        &__img5 {
+            width: 45%;
+            left: 75%;
+            top: 25%;
+        }
+    
+        &__img6 {
+            display: none;
+        }
+
+        &__img7 {
+            display: none;
+        }
+    }
+}
+
