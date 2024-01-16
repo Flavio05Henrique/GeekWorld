@@ -368,17 +368,17 @@ body {
   transition: 0.2s;
 }
 .secTalkToUs__card--cor1 {
-  background: var(--cor4) url(GeekWorld/assets/imgs/S5/gear-solid_gren.png) no-repeat center center;
+  background: var(--cor4) url(/GeekWorld/assets/imgs/S5/gear-solid_gren.png) no-repeat center center;
   background-size: 80%;
   transform: translate(-300%);
 }
 .secTalkToUs__card--cor2 {
-  background: var(--cor3) url(/assets/imgs/S5/file-pen-solid.png) no-repeat center center;
+  background: var(--cor3) url(/GeekWorld/assets/imgs/S5/file-pen-solid.png) no-repeat center center;
   background-size: 80%;
   transform: translate(0, -500%);
 }
 .secTalkToUs__card--cor3 {
-  background: var(--cor11) url(/assets/imgs/S5/user-tie-solid.png) no-repeat center center;
+  background: var(--cor11) url(/GeekWorld/assets/imgs/S5/user-tie-solid.png) no-repeat center center;
   background-size: 70%;
   transform: translate(300%);
 }
@@ -514,11 +514,11 @@ body {
   transition: 0.1s;
 }
 .slider__slider__forLeft {
-  background: transparent url(/assets/imgs/S3/Slider/caret-left-solid.svg) no-repeat center center;
+  background: transparent url(/GeekWorld/assets/imgs/S3/Slider/caret-left-solid.svg) no-repeat center center;
   left: 25%;
 }
 .slider__slider__forRigth {
-  background: transparent url(/assets/imgs/S3/Slider/caret-right-solid.svg) no-repeat center center;
+  background: transparent url(/GeekWorld/assets/imgs/S3/Slider/caret-right-solid.svg) no-repeat center center;
   left: 75%;
 }
 
@@ -678,7 +678,7 @@ body {
   top: 85%;
   z-index: 101;
   animation: Animation-returnToTopBnt 1s alternate infinite;
-  background: transparent url("/assets/imgs/angles-up-solid.svg") no-repeat center center;
+  background: transparent url("/GeekWorld/assets/imgs/angles-up-solid.svg") no-repeat center center;
   background-size: 30px;
   transition: 1s;
 }
