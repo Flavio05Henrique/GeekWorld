@@ -1,0 +1,76 @@
+.U-section {
+    @include  flex-centralize($direction: column);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: 0;
+}
+
+.U-title {
+    width: 75%;
+    text-align: center;
+    font-size: 8rem;
+    color: white;
+    margin-bottom: 30px;
+    opacity: 0;
+    transform: translate(0, -50%);
+    transition: 1.5s;
+        
+    & span {
+        color: var(--cor6);
+    }
+}
+
+.U-line {
+    max-width: 75%;
+    width: 75%;
+    height: 2px;
+    background-color: white;
+    margin: 20px auto;
+    transition: 1.5s;
+}
+
+.U-returnToTopBnt {
+    width: 60px;
+    height: 60px;
+    border: none;
+    border-radius: 100%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 85%;
+    z-index: 101;
+    animation: Animation-returnToTopBnt 1s alternate infinite;
+    background: transparent url('/assets/imgs/angles-up-solid.svg') no-repeat center center;
+    background-size: 30px;
+    transition: 1s;
+
+    &:hover {
+        cursor: pointer;
+    }
+
+    &:active {
+        background-color: rgba(255, 255, 255, 0.158);
+        transition: .3s;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .U-title {
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+    
+}
+
+@media screen and (max-width: 500px) {
+    .U-title {
+        margin-bottom: 0px;
+        margin-top: 10px;
+        font-size: 4rem;
+    }
+    
+}

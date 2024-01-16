@@ -1,0 +1,31 @@
+.translateZero {
+    transform: none;
+    transition: 1.5s;
+}
+
+.filterZero {
+    filter: none;
+    transition: 1s;
+}
+
+.opacityOff {
+    opacity: 100%;
+    transition: 1.5s;
+}
+
+.widthZero {
+    width: 0;
+    transition: 1.5s;
+}
+
+.ZIndexUp {
+    z-index: 100;
+}
+
+.ZIndexDown {
+    z-index: 0;
+}
+
+.displayNone {
+    display: none;
+}   
