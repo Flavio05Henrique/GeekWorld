@@ -368,7 +368,7 @@ body {
   transition: 0.2s;
 }
 .secTalkToUs__card--cor1 {
-  background: var(--cor4) url(/assets/imgs/S5/gear-solid_gren.png) no-repeat center center;
+  background: var(--cor4) url(GeekWorld/assets/imgs/S5/gear-solid_gren.png) no-repeat center center;
   background-size: 80%;
   transform: translate(-300%);
 }
